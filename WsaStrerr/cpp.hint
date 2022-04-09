@@ -1,0 +1,2 @@
+#define WSAERROR_API __declspec(dllexport)
+#define WSAERROR_API __declspec(dllimport)
