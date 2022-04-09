@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
 {
     /* 加载dll */
     WSAStrErrFunc pfWsaStrErr = nullptr;
-    HMODULE  hDllHandle = LoadLibrary(L"wsaerror.dll");
+    HMODULE  hDllHandle = LoadLibrary(L"wsa_strerr.dll");
     if (hDllHandle == nullptr)
     {
         printf("wsaerror.dll load failed!\n");
